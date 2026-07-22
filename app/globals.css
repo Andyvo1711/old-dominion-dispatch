@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f0e4;
+  color: #251f1a;
+}
+
+::selection {
+  background-color: #b08d57;
+  color: #f6f0e4;
+}
+
+/* Visible keyboard focus throughout */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #7c2836;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.prose-article {
+  color: #251f1a;
+}
+
+.prose-article p {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  line-height: 1.8;
+}
+
+.prose-article h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #16264b;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+
+.prose-article h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #16264b;
+  margin-top: 1.75em;
+  margin-bottom: 0.6em;
+}
+
+.prose-article a {
+  color: #7c2836;
+  text-underline-offset: 3px;
+}
+
+.prose-article ul,
+.prose-article ol {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding-left: 1.5em;
+}
+
+.prose-article li {
+  margin-top: 0.4em;
+  line-height: 1.75;
+}
+
+.prose-article li::marker {
+  color: #b08d57;
+}
+
+.prose-article blockquote {
+  border-left: 3px solid #b08d57;
+  padding-left: 1.25em;
+  font-style: italic;
+  color: #4a4038;
+  margin: 1.75em 0;
+}
