@@ -3,7 +3,7 @@ title: "When a Salon Stops Listening: A Rushed, Dismissive Visit at Escape Nails
 slug: "escape-nails-and-spa-when-a-salon-stops-listening-to-its-clients"
 excerpt: "A fictional case study for salon owners: how rushing a client, overriding her design requests, dismissing a lifting nail, and inconsistent treatment left a customer feeling unheard, disrespected, and unwilling to return."
 category: "beauty-wellness"
-date: "2026-07-23"
+date: "2026-05-23"
 coverImage: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1600&q=80"
 featured: false
 imageCredit: "Photo: Unsplash"
