@@ -4,7 +4,7 @@ slug: "booked-a-spa-gift-charged-300-and-the-package-never-delivered-at-aestheti
 excerpt: "A husband booked a head-spa package plus a haircut as a Mother's Day surprise, confirmed the services twice, and his wife left with a $300 bill and no spa package, later told the website prices were incorrect. A look at accurate pricing, delivering what was booked, and honest communication."
 category: "beauty-wellness"
 date: "2026-06-10"
-coverImage: "https://images.pexels.com/photos/34885845/pexels-photo-34885845.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+coverImage: "https://images.pexels.com/photos/3356170/pexels-photo-3356170.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 featured: false
 imageCredit: "Photo: Pexels"
 ---
