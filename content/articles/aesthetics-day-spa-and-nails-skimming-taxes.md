@@ -1,5 +1,5 @@
 ---
-title: "Aesthetics Day Spa & Nails: The Charge That Doesn't Show Up: What Every Nail Salon Owner Should Understand About Taxes"
+title: "Aesthetics Day Spa & Nails: The Charge That Doesn't Show Up: What Every Salon Owner Should Understand About Taxes"
 slug: "aesthetics-day-spa-and-nails-skimming-taxes"
 excerpt: "Charging part of a service on the card and quietly collecting the rest off the books has a name, skimming, and it is one of the surest ways to raise concern with the IRS. Here is why it is riskier than it looks, and what honest owners do instead."
 category: "finance-economy"
