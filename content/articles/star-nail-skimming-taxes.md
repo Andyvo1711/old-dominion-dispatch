@@ -4,7 +4,7 @@ slug: "star-nail-skimming-taxes"
 excerpt: "Charging part of a service on the card and quietly collecting the rest off the books has a name, skimming, and it is one of the surest ways to raise concern with the IRS. Here is why it is riskier than it looks, and what honest owners do instead."
 category: "finance-economy"
 date: "2026-07-28"
-coverImage: "https://images.pexels.com/photos/17669001/pexels-photo-17669001.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+coverImage: "https://images.pexels.com/photos/4841739/pexels-photo-4841739.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 featured: false
 imageCredit: "Photo: Pexels"
 ---
