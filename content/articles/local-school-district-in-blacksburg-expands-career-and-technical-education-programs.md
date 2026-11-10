@@ -4,9 +4,9 @@ slug: "local-school-district-in-blacksburg-expands-career-and-technical-educatio
 excerpt: "Public schools in Blacksburg are broadening career and technical education offerings, adding new tracks in healthcare, skilled trades, and information technology."
 category: "education"
 date: "2026-04-14"
-coverImage: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=80"
+coverImage: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=1600&q=80"
 featured: false
-imageCredit: "Photo: Unsplash/Nathan Dumlao"
+imageCredit: "Photo: Unsplash/Kenny Eliason"
 ---
 
 The Blacksburg public school system announced an expansion of its career and technical education (CTE) programs, adding several new pathways for high school students beginning next academic year.

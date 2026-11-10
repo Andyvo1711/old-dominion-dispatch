@@ -4,9 +4,9 @@ slug: "willow-oak-salon-introduces-sustainability-focused-skincare-line"
 excerpt: "Willow & Oak Salon has launched a new line of sustainably sourced skincare products, developed in partnership with a Virginia-based ingredient supplier."
 category: "beauty-wellness"
 date: "2026-07-14"
-coverImage: "https://images.unsplash.com/photo-1571907480495-4c4d1e2c9e70?auto=format&fit=crop&w=1600&q=80"
+coverImage: "https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=1600&q=80"
 featured: false
-imageCredit: "Photo: Unsplash/Alexandra Tran"
+imageCredit: "Photo: Unsplash/Charisse Kenion"
 ---
 
 Willow & Oak Salon announced the launch of a new sustainably sourced skincare product line this week, developed in partnership with a Virginia-based botanical ingredient supplier.

@@ -4,9 +4,9 @@ slug: "university-of-virginia-opens-new-center-for-applied-data-science"
 excerpt: "University of Virginia has unveiled a new interdisciplinary center focused on applied data science, aiming to connect classroom research with the needs of Virginia employers."
 category: "education"
 date: "2026-01-14"
-coverImage: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=80"
+coverImage: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=1600&q=80"
 featured: false
-imageCredit: "Photo: Unsplash/Nathan Dumlao"
+imageCredit: "Photo: Unsplash/Kimberly Farmer"
 ---
 
 University of Virginia formally opened its new Center for Applied Data Science this week, a facility administrators describe as a bridge between academic research and the state's fast-growing technology sector.

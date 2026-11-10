@@ -4,9 +4,9 @@ slug: "carilion-clinic-opens-expanded-emergency-department-in-charlottesville"
 excerpt: "Carilion Clinic has completed a major expansion of its emergency department in Charlottesville, adding capacity aimed at reducing wait times."
 category: "healthcare"
 date: "2026-06-14"
-coverImage: "https://images.unsplash.com/photo-1576765607924-3f8fb6f0dd08?auto=format&fit=crop&w=1600&q=80"
+coverImage: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1600&q=80"
 featured: false
-imageCredit: "Photo: Unsplash/Marcelo Leal"
+imageCredit: "Photo: Unsplash/Hush Naidoo Jade Photography"
 ---
 
 Carilion Clinic celebrated the opening of an expanded emergency department in Charlottesville this week, part of a broader investment aimed at easing wait times and adding capacity for the growing population it serves.
