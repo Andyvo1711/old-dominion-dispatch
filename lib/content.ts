@@ -26,7 +26,20 @@ let cachedArticles: Article[] | null = null;
 export function getAllArticles(): Article[] {
   if (cachedArticles) return cachedArticles;
   const files = readAllArticleFiles();
-  const articles = files.map(parseFrontmatter);
+  // Skip files without valid front matter (e.g. a stray .md with no
+  // title/slug/category/date). A missing date makes the sort comparator return
+  // NaN, which silently scrambles the order of every article on the site.
+  const articles = files.map(parseFrontmatter).filter((article) => {
+    const valid =
+      article.title &&
+      article.slug &&
+      article.category &&
+      !Number.isNaN(new Date(article.date).getTime());
+    if (!valid) {
+      console.warn("[content] Skipping article with invalid front matter");
+    }
+    return valid;
+  });
   articles.sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
