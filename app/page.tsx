@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CoverImage from "@/components/CoverImage";
 import Link from "next/link";
 import {
   getFeaturedArticle,
@@ -39,14 +39,12 @@ export default function HomePage() {
               </span>
             </div>
             <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden border border-brass-500/30 shadow-2xl">
-              <Image
-                src={hero.coverImage}
-                alt={hero.title}
-                fill
-                sizes="(min-width: 1024px) 50vw, 100vw"
-                priority
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
+              <CoverImage
+ src={hero.coverImage}
+ alt={hero.title}
+ sizes="(min-width: 1024px) 50vw, 100vw" priority
+ className="transition-transform duration-700 group-hover:scale-105"
+ />
             </div>
           </Link>
         </div>

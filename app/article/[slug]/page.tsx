@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import Image from "next/image";
+import CoverImage from "@/components/CoverImage";
 import Link from "next/link";
 import {
   getAllArticles,
@@ -65,14 +65,12 @@ export default async function ArticlePage({
       </div>
 
       <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden mt-8 border border-navy-700/10 bg-navy-100">
-        <Image
-          src={article.coverImage}
-          alt={article.title}
-          fill
-          sizes="(min-width: 768px) 768px, 100vw"
-          priority
-          className="object-cover"
-        />
+        <CoverImage
+ src={article.coverImage}
+ alt={article.title}
+ sizes="(min-width: 768px) 768px, 100vw" priority
+ className=""
+ />
       </div>
       <p className="font-utility text-xs text-ink/50 mt-2">
         {article.imageCredit}

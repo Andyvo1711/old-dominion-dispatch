@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CoverImage from "@/components/CoverImage";
 import Link from "next/link";
 import { ArticleSummary, CategoryMeta } from "@/types/article";
 import CompactArticleRow from "./CompactArticleRow";
@@ -36,14 +36,12 @@ export default function CategorySection({
           className="group lg:col-span-3 flex flex-col rounded-xl overflow-hidden bg-cream-50 border border-navy-700/10 shadow-card hover:shadow-lg transition-shadow"
         >
           <div className="relative w-full aspect-[16/9] overflow-hidden bg-navy-100">
-            <Image
-              src={featured.coverImage}
-              alt={featured.title}
-              fill
-              sizes="(min-width: 1024px) 60vw, 100vw"
-              priority={false}
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
-            />
+            <CoverImage
+ src={featured.coverImage}
+ alt={featured.title}
+ sizes="(min-width: 1024px) 60vw, 100vw"
+ className="transition-transform duration-500 group-hover:scale-105"
+ />
           </div>
           <div className="p-6">
             <h3 className="font-display text-xl sm:text-2xl font-bold text-navy-700 leading-snug group-hover:text-brick-600 transition-colors">
