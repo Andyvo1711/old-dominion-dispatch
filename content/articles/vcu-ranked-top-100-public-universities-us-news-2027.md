@@ -5,7 +5,7 @@ excerpt: "Virginia Commonwealth University placed tied for No. 79 among public u
 category: "education"
 date: "2026-09-22"
 coverImage: "/images/vcu-us-news-2027-rankings.jpg"
-featured: false
+featured: true
 imageCredit: "Photo: VCU News (file image)"
 ---
 
