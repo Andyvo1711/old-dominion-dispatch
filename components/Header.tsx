@@ -25,6 +25,36 @@ export default function Header() {
             </div>
           </div>
         </Link>
+        <form
+          action="/search"
+          method="get"
+          role="search"
+          className="ml-auto hidden sm:flex items-center"
+        >
+          <label htmlFor="site-search" className="sr-only">
+            Search articles
+          </label>
+          <div className="flex items-center bg-cream-50/10 border border-brass-500/40 rounded-md focus-within:border-brass-300 focus-within:bg-cream-50/15 transition-colors">
+            <input
+              id="site-search"
+              type="search"
+              name="q"
+              placeholder="Search the Dispatch…"
+              autoComplete="off"
+              className="bg-transparent px-3 py-2 w-56 lg:w-72 font-utility text-sm text-cream-50 placeholder:text-cream-200/60 focus:outline-none"
+            />
+            <button
+              type="submit"
+              aria-label="Search"
+              className="px-3 py-2 text-brass-300 hover:text-cream-50 transition-colors"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+                <circle cx="11" cy="11" r="7" />
+                <path d="m20 20-3.5-3.5" />
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
       <nav className="border-t border-brass-500/30 bg-navy-800/60">
         <div className="mx-auto max-w-6xl px-4">
@@ -48,6 +78,16 @@ export default function Header() {
               </li>
             ))}
           </ul>
+          <form action="/search" method="get" role="search" className="sm:hidden pb-3">
+            <label htmlFor="site-search-m" className="sr-only">Search articles</label>
+            <input
+              id="site-search-m"
+              type="search"
+              name="q"
+              placeholder="Search the Dispatch…"
+              className="w-full bg-cream-50/10 border border-brass-500/40 rounded-md px-3 py-2 font-utility text-sm text-cream-50 placeholder:text-cream-200/60 focus:outline-none focus:border-brass-300"
+            />
+          </form>
         </div>
       </nav>
     </header>

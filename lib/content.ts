@@ -60,6 +60,36 @@ export function getArticlesByCategory(category: CategorySlug): Article[] {
   return getAllArticles().filter((article) => article.category === category);
 }
 
+export function searchArticles(query: string): Article[] {
+  const terms = query
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (terms.length === 0) return [];
+  const scored: { article: Article; score: number }[] = [];
+  for (const article of getAllArticles()) {
+    const title = article.title.toLowerCase();
+    const excerpt = (article.excerpt ?? "").toLowerCase();
+    const body = (article.content ?? "").toLowerCase();
+    const cat = article.category.replace(/-/g, " ");
+    let score = 0;
+    let matchesAll = true;
+    for (const t of terms) {
+      const inTitle = title.includes(t);
+      const inExcerpt = excerpt.includes(t);
+      const inBody = body.includes(t) || cat.includes(t);
+      if (!inTitle && !inExcerpt && !inBody) {
+        matchesAll = false;
+        break;
+      }
+      score += (inTitle ? 5 : 0) + (inExcerpt ? 2 : 0) + (inBody ? 1 : 0);
+    }
+    if (matchesAll) scored.push({ article, score });
+  }
+  // Best match first; ties keep newest-first order (getAllArticles is date-sorted).
+  return scored.sort((a, b) => b.score - a.score).map((x) => x.article);
+}
+
 export function getFeaturedArticle(): Article {
   const articles = getAllArticles();
   const featured = articles.find((article) => article.featured);

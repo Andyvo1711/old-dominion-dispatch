@@ -4,15 +4,22 @@ export default function Pagination({
   basePath,
   currentPage,
   totalPages,
+  query,
 }: {
   basePath: string;
   currentPage: number;
   totalPages: number;
+  query?: string;
 }) {
   if (totalPages <= 1) return null;
 
-  const pageHref = (page: number) =>
-    page === 1 ? basePath : `${basePath}?page=${page}`;
+  const pageHref = (page: number) => {
+    const params = new URLSearchParams();
+    if (query) params.set("q", query);
+    if (page > 1) params.set("page", String(page));
+    const qs = params.toString();
+    return qs ? `${basePath}?${qs}` : basePath;
+  };
 
   return (
     <nav
